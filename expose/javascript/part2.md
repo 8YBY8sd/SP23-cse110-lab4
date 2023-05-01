@@ -1,0 +1,5 @@
+1. It will be `console.log(3)`， print out 3. `i` is a var, so we can access from outside of for loop. Also, `i` = 3 because `price` has 3 numbers. `price.length` = 3, and `i++` for loop runs over 3 times. It stops until `i` = 3 which means not `<` than 3. Finally, it outputs `3`.
+2. It will be `console.log(150)`, print out 150. `discountedPrice` is a var, so we can access from outside of for loop. The last `discountedPrice` is 150 by `price[2] * (1 - 0.5)`. Finally, it outputs `150`.
+3. It will be `console.log(150)`， print out 150. `finalPrice` is a var, so we can access from outside of for loop. Also, `finalPrice` = 150 because the last `finalPrice` =        `Math.round(150 * 100) / 100`. Finally, it outputs `150`.
+4. It returns `[50, 100, 150]`. `discounted` is a var, so we can access it whatever in this function. In line 9, it pushes all three `finalPrice` oderly into the discounted.
+5. 
