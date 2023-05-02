@@ -22,9 +22,16 @@
     F. 0 since false converts to 0 and null converts to 0, so =0+0=0
     G. '3undefined' since undefined converts tp 'undefined', so combine them together 
     H. NaN since '3' maps to 3 and undefined converts to NaN, so =3-NaN=NaN
-14. A. 
-    B.
-    C.
-    D.
-    E.
-    F.
+14. A. true string '2' becomes to 2, so 2>1
+    B. false it compares '2' and '12' lexigraphically, for the first character '2' > '1', so '2' > '12'
+    C. true string '2' becomes to 2, so 2==2
+    D. false 2 and '2' are different types
+    E. false true becomes 1,so 1==2 is false
+    F. true 2 is a number which is a truthy value, so `Boolean(2)` returns true. `===` is checking if two values are of the same data type and have the same value. `true === true` is true
+15. `==` is checking if have the same value. `===`is checking if two values are of the same data type and have the same value.
+17. It will return `[2,4,6]`. First, it runs `modifyArray`, and then it creates an new array `newArr`. Go into the for loop, it runs first number 1 from the input array. Here callbck funtion is `doSomething`. Inside of for loop, callback to doSomething(1), and then double the number 1, we get 2. After that, it push 2 into `newArr`. Than, go back to for loop for next number 2, and do same thing with 1. Double it, push it to `newArr`. Go to next number 3, do same things with 2. Doble it, push it to `newArr`. After that, `i` becomes 3, and 3 is not smaller than `array.length`(3). Thus, get out from for loop, and then return `newArr`.
+19. 1 
+    4
+    3
+    2
+    1 and 4 printed out immedently. 3 has 0 deley, so it printed out after 1 and 4. 2 has 1 second deley, so it's the last one print out.
